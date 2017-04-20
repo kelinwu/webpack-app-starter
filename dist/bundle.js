@@ -73,11 +73,7 @@
 "use strict";
 
 
-// function gethello() {
-//     return 'Hello there';
-// }
-
-var people = [{ name: 'John Doe' }, { name: 'John Two' }, { name: 'John Three' }];
+var people = [{ name: 'John Doe' }, { name: 'John Toe' }, { name: 'John Tho' }];
 
 module.exports = people;
 
@@ -12425,11 +12421,8 @@ var people = __webpack_require__(0);
 var $ = __webpack_require__(1);
 
 $.each(people, function (key, value) {
-
     $('body').append('<h1>' + people[key].name + '</h1>');
 });
-
-console.log(people);
 
 /***/ }),
 /* 9 */
